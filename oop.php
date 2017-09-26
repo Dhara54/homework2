@@ -59,15 +59,9 @@ $arr = array("Milk ", "tea", "coffee");
 echo "The array is  ";
 print_r($arr);
 echo "</br>"
+echo "<h1>Number of string</h1>";
 echo count($arr);
 
-echo "<hr>";
-echo "</br><h1>This will show key as value and value as a key</h1>";
-print_r( array_flip($arr) );
-
-echo "<hr>";
-echo "</br><h1>Array keys are written in Uppercase </h1>";
-print_r(array_change_key_case($arr,1));
 
 
 
