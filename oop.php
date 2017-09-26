@@ -23,7 +23,7 @@ echo $str . “<br>”;
 echo trim(“$str”,”Wording”);
 
 
-
+}
 
 
 
