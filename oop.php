@@ -5,7 +5,7 @@
 
 echo "Hello</br>";
 $str= "Welcome to php";
-echo "Welcome to php</br>";
+echo "<center>Welcome to php</center></br>";
 
 echo "<hr>";
 echo "<h1></br>lenght of the string </h1>";
