@@ -14,6 +14,8 @@ echo str_word_count($str);
 echo "</br> Reverse of the string is : ";
 echo strrev($str);
 
+echo "</br>This will replace word :  ";
+echo str_replace("php", "world",$str);
 
 echo "</br> This will convert first character of each word in a string to uppercase : ";
 echo ucwords($str);
