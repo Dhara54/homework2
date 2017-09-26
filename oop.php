@@ -1,4 +1,6 @@
 <?php
+
+echo "hello";
 $obj= new main();
 Class main
 {
