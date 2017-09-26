@@ -4,12 +4,12 @@ echo "hello";
 $obj= new main();
 Class main
 {
-Public function_construct()
-	{
-		header("String Length");
-		echo ‘web system development’;
-		echo strlen(“web system development”);
-	}
+
+
+	header("String Length");
+	echo ‘web system development’;
+	echo strlen(“web system development”);
+
 echo str_word_count(“Welcome to Cloudways”);
 echo strrev(“Welcome to Cloudways”);
 echo str_replace(“cloudways”, “the programming world”, “Welcome to cloudways”);
