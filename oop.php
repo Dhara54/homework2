@@ -27,10 +27,7 @@ echo "</br>The string is reapeating for 10 times : ";
 echo str_repeat($str,10);
 
 
-echo "</br>This is comparison of two string : ";
-echo "</br>First string is : Welcome ";
-echo "</br>Second string is : to the php ";
-echo strcmp(“ Welcome ”,” to the php ”);
+
 
 echo "</br> This wil cut the string in parts : ";
 echo substr($str,0,10).”;
