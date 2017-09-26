@@ -50,6 +50,23 @@ echo trim($str,”Wep”);
 
 
 
+
+
+echo "<hr>";
+echo "<center><h1>Following are array functions</h1></center>";
+echo "</br><h1>Length of an array</h1>";
+$arr = array("Milk ", "tea", "coffee");
+echo $arr;
+echo count($arr);
+
+
+
+
+
+
+
+
+
 ?>
 
 
