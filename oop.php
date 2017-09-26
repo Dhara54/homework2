@@ -1,14 +1,9 @@
 <?php
 
-echo "hello";
-$obj= new main();
-Class main
-{
 
-
-	header("String Length");
-	echo ‘web system development’;
-	echo strlen(“web system development”);
+echo "<h1>String length</h1>";
+echo "web system development";
+echo strlen(“web system development”);
 
 echo str_word_count(“Welcome to Cloudways”);
 echo strrev(“Welcome to Cloudways”);
@@ -23,7 +18,6 @@ echo substr(“Welcome to Cloudways”,0,10).”<br>”;
 $str = “Wordpess Hosting”;
 echo $str . “<br>”;
 echo trim(“$str”,”Wording”);
-
 
 }
 
