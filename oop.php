@@ -7,7 +7,7 @@ echo "Hello</br>";
 $str= "Welcome to php";
 echo "Welcome to php</br>";
 
-echo "</br>lenght of the string is : ";
+echo "<h1></br>lenght of the string is : </h1>";
 echo strlen($str);
 echo"</br>word count of the string is : ";
 echo str_word_count($str);
