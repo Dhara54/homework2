@@ -14,6 +14,7 @@ echo str_word_count($str);
 echo "</br> Reverse of the string is : ";
 echo strrev($str);
 
+
 echo "</br> This will convert first character of each word in a string to uppercase : ";
 echo ucwords($str);
 
@@ -30,10 +31,9 @@ echo str_repeat($str,10);
 echo "</br> This wil cut the string in parts : ";
 echo substr($str,0,10);
 
-echo "</br>This is comparison of two string : ";
-echo "</br>First string is : Welcome ";
-echo "</br>Second string is : to the php ";
-echo strcmp(“ Welcome ”,” to the php ”);
+echo "</br>Some characters are removed from the string :   ";
+echo trim($str,”Wep”);
+
 
 
 
