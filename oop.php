@@ -7,34 +7,44 @@ echo "Hello</br>";
 $str= "Welcome to php";
 echo "Welcome to php</br>";
 
+echo "<hr>";
 echo "<h1></br>lenght of the string </h1>";
 echo strlen($str);
-echo"</br></br><h1>word count of the string </h1>";
+
+echo "<hr>";
+echo"</br><h1>word count of the string </h1>";
 echo str_word_count($str);
-echo "</br></br><h1> Reverse of the string </h1>";
+
+echo "<hr>";
+echo "</br><h1> Reverse of the string </h1>";
 echo strrev($str);
 
 echo "<hr>";
-echo "</br>This will replace word :  ";
+echo "</br><h1>This will replace word </h1>";
 echo str_replace("php", "world",$str);
 
-echo "</br> This will convert first character of each word in a string to uppercase : ";
+echo "<hr>";
+echo "</br><h1>first character of each word in a string is in uppercase </h1>";
 echo ucwords($str);
 
-echo "</br> This will convert string to uppercase : ";
+echo "<hr>";
+echo "</br><h1> This will convert string to uppercase </h1>";
 echo strtoupper($str);
 
-echo "</br>This will convert string to lowercase : ";
+echo "<hr>";
+echo "</br><h1>This will convert string to lowercase </h1>";
 echo strtolower($str);
 
-echo "</br>The string is reapeating for 10 times : ";
+echo "<hr>";
+echo "</br><h1>The string is reapeating for 10 times </h1>";
 echo str_repeat($str,10);
 
-
-echo "</br> This wil cut the string in parts : ";
+echo "<hr>";
+echo "</br><h1> This will cut the string in parts </h1>";
 echo substr($str,0,10);
 
-echo "</br>Some characters are removed from the string :   ";
+echo "<hr>";
+echo "</br><h1>Some characters are removed from the string </h1>";
 echo trim($str,”Wep”);
 
 
