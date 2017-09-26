@@ -54,12 +54,12 @@ echo trim($str,”Wep”);
 
 echo "<hr>";
 echo "<center><h1>Following are array functions</h1></center>";
-echo "</br><h1>Length of an array</h1>";
+
 $arr = array("Milk ", "tea", "coffee");
 echo "The array is  ";
 print_r($arr);
 echo "</br>";
-echo "<h1>Number of string</h1>";
+echo "<h1>Length of an array</h1>";
 echo count($arr);
 
 
