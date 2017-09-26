@@ -7,11 +7,11 @@ echo "Hello</br>";
 $str= "Welcome to php";
 echo "Welcome to php</br>";
 
-echo "<h1></br>lenght of the string is : </h1>";
+echo "<h1></br>lenght of the string </h1>";
 echo strlen($str);
-echo"</br>word count of the string is : ";
+echo"</br></br><h1>word count of the string </h1>";
 echo str_word_count($str);
-echo "</br> Reverse of the string is : ";
+echo "</br></br><h1> Reverse of the string </h1>";
 echo strrev($str);
 
 echo "</br>This will replace word :  ";
