@@ -14,6 +14,7 @@ echo str_word_count($str);
 echo "</br></br><h1> Reverse of the string </h1>";
 echo strrev($str);
 
+<hr>
 echo "</br>This will replace word :  ";
 echo str_replace("php", "world",$str);
 
