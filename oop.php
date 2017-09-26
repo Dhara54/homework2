@@ -33,7 +33,7 @@ echo "</br>Second string is : to the php ";
 echo strcmp(“ Welcome ”,” to the php ”);
 
 echo "</br> This wil cut the string in parts : ";
-echo substr(“Welcome to the php”,0,10).”;
+echo substr($str,0,10).”;
 
 
 
