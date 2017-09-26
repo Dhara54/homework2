@@ -56,10 +56,19 @@ echo "<hr>";
 echo "<center><h1>Following are array functions</h1></center>";
 echo "</br><h1>Length of an array</h1>";
 $arr = array("Milk ", "tea", "coffee");
+echo "The array is  ";
 print_r($arr);
+echo "</br>"
 echo count($arr);
 
+echo "<hr>";
+echo "</br><h1>This will show key as value and value as a key</h1>";
+print_r( array_flip($arr) );
 
+echo "<hr>";
+echo "</br><h1>Array keys are written in Uppercase </h1>";
+$student = array("NamE" => "JOHN","RolL NumbeR" => 38);
+print_r(array_change_key_case($student,1));
 
 
 
