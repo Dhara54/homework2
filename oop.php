@@ -67,8 +67,7 @@ print_r( array_flip($arr) );
 
 echo "<hr>";
 echo "</br><h1>Array keys are written in Uppercase </h1>";
-$student = array("NamE" => "JOHN","RolL NumbeR" => 38);
-print_r(array_change_key_case($student,1));
+print_r(array_change_key_case($arr,1));
 
 
 
