@@ -5,8 +5,9 @@
 
 echo "Hello</br>";
 $str= "Welcome to php";
-echo "<center>Welcome to php</center></br>";
+echo "<center><h1>Welcome to php</h1></center></br>";
 
+echo "</br>The string is :";
 echo "<hr>";
 echo "<h1></br>lenght of the string </h1>";
 echo strlen($str);
@@ -50,7 +51,7 @@ echo trim($str,”Wep”);
 
 
 
-
+echo "</br>";
 
 echo "<hr>";
 echo "<center><h1>Following are array functions</h1></center>";
@@ -65,7 +66,7 @@ echo "</br>";
 echo count($arr);
 
 echo "<hr>";
-echo "</br><h1>This will show key as value and value as a key</h1>";
+echo "</br><h1>Showing key as value and value as a key</h1>";
 echo "</br>";
 print_r(array_flip($arr));
 
@@ -101,6 +102,7 @@ $age=array("26","21","13");
 echo "First array is : ";
 echo "</br>";
 print_r($fname);
+echo "</br>";
 echo "Second array is : ";
 echo "</br>";
 print_r($age);
@@ -130,6 +132,7 @@ $e=array("red","black","blue");
 echo "</br>First array is : ";
 echo "</br>";
 print_r($d);
+echo "</br>";
 echo "Second array is : ";
 echo "</br>";
 print_r($e);
