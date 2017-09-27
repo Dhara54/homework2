@@ -70,6 +70,12 @@ echo "</br>";
 print_r(array_flip($arr));
 
 echo "<hr>";
+echo "</br><h1>Shuffling the array </h1>";
+echo "</br>";
+shuffle($arr);
+print_r($arr);
+
+echo "<hr>";
 echo "</br><h1>Array values are written in Uppercase </h1>";
 echo "</br>";
 print_r(array_change_Value_case($arr,1));
