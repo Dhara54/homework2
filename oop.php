@@ -75,11 +75,6 @@ echo "</br>";
 shuffle($arr);
 print_r($arr);
 
-echo "<hr>";
-echo "</br><h1>Array values are written in Uppercase </h1>";
-echo "</br>";
-print_r(array_change_Value_case($arr,1));
-
 
 echo "<hr>";
 echo "</br><h1>Reverse of an array  </h1>";
