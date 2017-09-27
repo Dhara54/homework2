@@ -7,7 +7,7 @@ echo "Hello</br>";
 $str= "Welcome to php";
 echo "<center><h1>Welcome to php</h1></center></br>";
 
-echo "</br>The string is :";
+echo "</br>The string is: Welcomr to php";
 echo "<hr>";
 echo "<h1></br>lenght of the string </h1>";
 echo strlen($str);
