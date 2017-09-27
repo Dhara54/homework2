@@ -62,6 +62,21 @@ echo "</br>";
 echo "<h1>Length of an array</h1>";
 echo count($arr);
 
+echo "<hr>";
+echo "</br><h1>This will show key as value and value as a key</h1>";
+print_r(array_flip($arr));
+
+echo "<hr>";
+echo "</br><h1>Array keys are written in Uppercase </h1>";
+print_r(array_change_key_case($arr,1));
+
+echo "<hr>";
+echo "</br><h1>";
+$num = array(20, 50, 10);
+$key = array_search(50, $num);
+Print_r($num);
+echo "<br>Key of search no: ".$key;
+
 
 
 
